@@ -13,8 +13,8 @@
 /usr/bin/install -d $BUILDROOT/$UNITDIR
 /usr/bin/install -m 0644 -t $BUILDROOT/$UNITDIR systemd/*
 
-/usr/bin/install -m 0644 -D share/maps/backbone.imn \
-                            $BUILDROOT/$SYSCONFDIR/$NAME/map.imn
+/usr/bin/install -m 0644 -D share/maps/backbone.xml \
+                            $BUILDROOT/$SYSCONFDIR/$NAME/map.xml
 
 /usr/bin/install -m 0644 -D etc/profile.d_greybox.sh \
                             $BUILDROOT/$SYSCONFDIR/profile.d/$NAME.sh
